@@ -1,0 +1,95 @@
+<%- include('partials/header') %>
+
+<main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">Membangun Masa Depan Emas Bersama <span class="highlight-gold"><%= companyName %></span></h1>
+            <p class="fade-in-up delay-1">Solusi perusahaan inovatif, premium, dan berstandar global untuk meningkatkan efisiensi dan mempercepat pertumbuhan bisnis Anda.</p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#services" class="btn-primary">Jelajahi Layanan</a>
+                <a href="#contact" class="btn-secondary">Konsultasi Gratis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Kami</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card fade-in">
+                    <h3>Visi & Misi Kami</h3>
+                    <p>Di <%= companyName %>, kami percaya bahwa teknologi dan strategi yang tepat dapat mengubah bisnis dari sekadar bertahan menjadi memimpin pasar. Kami berdedikasi untuk memberikan layanan prima, inovatif, dan terpercaya bagi klien-klien korporat di seluruh dunia.</p>
+                    <ul class="feature-list">
+                        <li>✔️ Integritas Tanpa Kompromi</li>
+                        <li>✔️ Inovasi Berkelanjutan</li>
+                        <li>✔️ Keunggulan Layanan</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-card">
+                        <h4 class="stat-number">10+</h4>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h4 class="stat-number">500+</h4>
+                        <p>Klien Global</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h4 class="stat-number">99%</h4>
+                        <p>Tingkat Kepuasan</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h4 class="stat-number">24/7</h4>
+                        <p>Dukungan Penuh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Layanan Unggulan Kami</h2>
+                <div class="underline mx-auto"></div>
+                <p>Kami menawarkan spektrum solusi lengkap yang dirancang khusus untuk memenuhi kebutuhan unik perusahaan Anda.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card glass-card hover-lift">
+                    <div class="service-icon">💡</div>
+                    <h3>Konsultasi Strategis</h3>
+                    <p>Membantu memetakan jalan menuju kesuksesan dengan analisis data komprehensif dan strategi bisnis mutakhir.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <div class="service-icon">🚀</div>
+                    <h3>Transformasi Digital</h3>
+                    <p>Mendigitalkan proses inti perusahaan Anda untuk meningkatkan efisiensi dan skalabilitas bisnis tanpa batas.</p>
+                </div>
+                <div class="service-card glass-card hover-lift">
+                    <div class="service-icon">🔐</div>
+                    <h3>Keamanan Siber</h3>
+                    <p>Melindungi aset digital dan data pelanggan Anda dengan protokol keamanan tingkat militer terbaru.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container cta-container glass-card text-center">
+            <h2>Siap Mendominasi Pasar?</h2>
+            <p>Bergabunglah dengan ratusan perusahaan top lainnya yang telah mempercayakan kesuksesan mereka bersama <%= companyName %>.</p>
+            <a href="#contact" class="btn-primary">Mulai Sekarang</a>
+        </div>
+    </section>
+</main>
+
+<%- include('partials/footer') %>
